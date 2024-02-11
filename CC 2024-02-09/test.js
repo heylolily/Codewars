@@ -28,3 +28,15 @@ console.log(test())
 // step step 7: push your files (aka confirm all your changes and submit them so they appear in your repo) by typing the following:
     // git push
     // now, you can refresh your page on github and you should be able to see your files and changes on your repo!!! congrats! you have a green square on your page now :) happy coding!!!
+
+
+// make sure you 'git commit -m' BEFORE you try to push your code to github. it took me a while to figure out but you need to always push something with a message. for example...
+    // ive made a new js file and did a challenge. its ready to be pushed to the repo
+    // git add .
+        // im adding all the modified files to the staging area
+    // git status
+        // just to double check all the things im ready to push to the repo, it's optional, but its good to be sure of everything before pushing
+    // git commit -m 'coding challenge for today's date'
+        // adding a commit msg so contributors know whats been modified (and good bookkeeping!!)
+    // git push
+        // confirm your changes and load them up to the repo!
