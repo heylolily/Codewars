@@ -10,7 +10,7 @@ console.log(test())
 // step 1: make sure vscode and github are connected. create a repository (repo) on github and have whatever directory you want uploaded open on vscode
 
 // step 2: use "git init" in the terminal to initialize git. this will help with the following steps
-// step 3: there are several commands to remember
+// there are several commands to remember
     // "git commit -m 'insert msg here'" will ready up a file with a msg. the "-m" part indicates a msg or memo, similar to adding a note or caption to your file. when you view this commit, you can read the msg to get a snapshot of what the change was or why
     // "git pull" helps merge your files with whatever is currently uploaded on github (im not sure about this definition at the moment...)
     // "git commit --amend --date='insert date here'" will do the same as the first commit command, but this time with a different date. say you want to commit a change to yesterday (or any previous date)
