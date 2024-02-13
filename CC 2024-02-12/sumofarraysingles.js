@@ -18,3 +18,12 @@ console.log(repeats([5, 17, 18, 11, 13, 18, 11, 13]),22)
 // by far the hardest kata i've done so far. i tried to limit how long i spent on it to not burn out, but i was wayyy too focused on getting through it. i NEEDED to T^T but i eventually got through it.
 
 // for my solution, i decided to go with the thought process that 'if the first index and the last index of a number is the same, that means it only occurs once' so i would push that to a separate array. at the end of the loop, i would reduce the new array to get the sum of the single occurance numbers:)
+
+
+// solution that is very similar to mine!!
+
+// function repeats(arr){
+//     return arr.filter(v => arr.indexOf(v) === arr.lastIndexOf(v)).reduce((a,b) => a + b, 0);
+//   };
+
+// this one is very similar to my solution, but cut down to be less cluttered
