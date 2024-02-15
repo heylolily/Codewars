@@ -13,3 +13,10 @@ function isIsogram(str){
     return iso.length === uniq.length ? true : false
 }
 
+// a simplified version of the same code
+
+function isIsogram(str){
+    // basically the same principle, but you dont have to make an array for the default string. 
+    // the length will be the same. size will return the number of elements in the set. 
+	return new Set(str.toLowerCase()).size == str.length;
+}
