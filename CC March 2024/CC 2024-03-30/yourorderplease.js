@@ -19,3 +19,13 @@ function order(words){
     })
     return answer.sort((a,b) => a[1]-b[1]).map(x => x.slice(0,1)).join(' ')
   }
+
+
+ // second solution, i like the idea of condensing it 
+  function order(words){
+  
+    return words.split(' ').sort(function(a, b){
+      // use of regex to find digit
+        return a.match(/\d/) - b.match(/\d/);
+     }).join(' ');
+  }    
