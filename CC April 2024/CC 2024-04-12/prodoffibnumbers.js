@@ -41,9 +41,6 @@
 // You can see examples for your language in "Sample Tests".
 
 
-// not gonna lie, the instructions were a bit hard to understand at first glance, but I basically needed to find the two consecutive fib numbers whos product matched the given variable. if there are 2 numbers, return them with true at the end of the array, and if not, false
-
-
 // my solution
 function productFib(prod){
     let fib = [0,1]
@@ -69,9 +66,10 @@ function productFib(prod){
     return [n, nPlus, n*nPlus===prod];
   }
 
-//another alternative solution. i like this because it doesn't require me to make another variable for the next fib numbers. i always forget i can declare 2 variables in one like like this. its good to remember for future instances
+// another alternative solution. i like this because it doesn't require me to make another variable for the next fib numbers. i always forget i can declare 2 variables in one like like this. its good to remember for future instances
   function productFib(prod){
     let [a, b] = [0, 1];
     while(a * b < prod) [a, b] = [b, a + b];
     return [a, b, a * b === prod];
   }
+
